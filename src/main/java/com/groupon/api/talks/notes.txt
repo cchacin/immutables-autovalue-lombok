@@ -1,0 +1,11 @@
+@Target(ElementType.TYPE)
+@Value.Style(
+        defaultAsDefault = true,
+        typeBuilder = "*InternalBuilder",
+        visibility = Value.Style.ImplementationVisibility.PACKAGE,
+        builderVisibility = Value.Style.BuilderVisibility.PACKAGE,
+        implementationNestedInBuilder = true,
+        overshadowImplementation = true
+)
+public @interface Data {
+}
