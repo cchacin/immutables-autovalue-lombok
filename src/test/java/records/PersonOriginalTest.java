@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class PersonOriginalTest implements WithAssertions {
-    
+
     @Test
     void immutability() {
         // Create a mutable list with 1 element
@@ -16,7 +16,7 @@ class PersonOriginalTest implements WithAssertions {
         achievements1.add("Speaker");
         achievements1.add("Blogger");
         var achievements2 = List.of("Speaker", "Blogger");
-        
+
         // Create person 1, assigning the list1
         var person1 = new PersonOriginal(
                 "John",

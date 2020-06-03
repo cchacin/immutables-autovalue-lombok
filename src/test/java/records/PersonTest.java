@@ -19,7 +19,7 @@ class PersonTest implements WithAssertions {
 
 
         // Create person 1, assigning the list1
-        var person1 = new Person(
+        var person1 = new JsonbShould.Person(
                 "John",
                 "Doe",
                 "USA",
@@ -28,7 +28,7 @@ class PersonTest implements WithAssertions {
         );
 
         // Create person 2, assigning the list2
-        var person2 = new Person(
+        var person2 = new JsonbShould.Person(
                 "John",
                 "Doe",
                 "USA",
